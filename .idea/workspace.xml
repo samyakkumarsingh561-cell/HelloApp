@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f902fc1-e106-4d48-a735-af89c197c4d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/HelloApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelloApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="0f902fc1-e106-4d48-a735-af89c197c4d1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +37,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "feature/uc3-display-name",
+    "git-widget-placeholder": "feature/uc4-display-name",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773805227442</updated>
       <workItem from="1773805229244" duration="1488000" />
-      <workItem from="1774495023397" duration="1138000" />
+      <workItem from="1774495023397" duration="1498000" />
     </task>
     <servers />
   </component>

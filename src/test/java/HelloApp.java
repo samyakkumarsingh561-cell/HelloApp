@@ -1,18 +1,17 @@
 /**
- * HelloApp - UC4
- * A simple Java application that greets multiple users by name if
- * provided as command-line arguments, or defaults to greeting "World" if no names are given.
+ * UC 5: Display "Hello" with Multiple Command-Line Arguments using Enhanced For Loop
+ * or Default Message.
  *
- * Usage: java HelloAppUC4 [name1] [name2] ... [nameN]
- * - If names are provided, it will display "Hello, [Name1], [Name2], ...!"
- * - If no names are provided, it will display "Hello, World!"
+ * Usage: java HelloAppUC5 [name1] [name2] ... [nameN]
+ * - If names are provided, it will display "Hello, [Name1], [Name2], ...!".
+ * - If no names are provided, it will display "Hello, World!".
  *
  * @author Developer Name
- * @version 4.0
+ * @version 5.0
  * @since UC1
  */
 
-public class HelloAppUC4 {
+public class HelloApp {
     public static void main(String[] args) {
         String name;
 
@@ -20,13 +19,15 @@ public class HelloAppUC4 {
             // Default greeting if no names are provided
             name = "World";
         } else {
-            // Build a comma-separated list of names
+            // Build a comma-separated list of names using enhanced for loop
             StringBuilder nameBuilder = new StringBuilder();
-            for (int i = 0; i < args.length; i++) {
-                nameBuilder.append(args[i]);
-                if (i < args.length - 1) {
+            boolean first = true;
+            for (String arg : args) {
+                if (!first) {
                     nameBuilder.append(", ");
                 }
+                nameBuilder.append(arg);
+                first = false;
             }
             name = nameBuilder.toString();
         }
