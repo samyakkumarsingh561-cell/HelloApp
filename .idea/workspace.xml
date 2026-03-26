@@ -37,7 +37,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "feature/uc4-display-name",
+    "git-widget-placeholder": "feature/uc5-display-name",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773805227442</updated>
       <workItem from="1773805229244" duration="1488000" />
-      <workItem from="1774495023397" duration="1498000" />
+      <workItem from="1774495023397" duration="1848000" />
     </task>
     <servers />
   </component>
